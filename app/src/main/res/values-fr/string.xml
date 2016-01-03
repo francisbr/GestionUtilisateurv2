@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestion Joueur</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Parametre</string>
+    <string name="title_activity_add_user">Ajouter un utilisateur</string>
+
+    <string-array name="roles">
+        <item>Villageois</item>
+        <item>Loup-Garou</item>
+        <item>Sorcière</item>
+        <item>Chasseur</item>
+        <item>Cupidon</item>
+    </string-array>
+
+</resources>

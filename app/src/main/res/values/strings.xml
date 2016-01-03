@@ -1,0 +1,20 @@
+<resources>
+
+
+
+    <string name="app_name">Player Manager</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_user">Add User</string>
+
+    <string name="google_app_id">Add User</string>
+
+    <string-array name="roles">
+        <item>Villageois</item>
+        <item>Loup-Garou</item>
+        <item>Sorcière</item>
+        <item>Chasseur</item>
+        <item>Cupidon</item>
+    </string-array>
+</resources>
