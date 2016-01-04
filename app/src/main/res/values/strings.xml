@@ -9,7 +9,7 @@
     <string name="title_activity_add_user">Add User</string>
 
     <string name="google_app_id">Add User</string>
-
+    <string name="francis.gestionutilisateurv2">francis.gestionutilisateurv2</string>
     <string-array name="roles">
         <item>Villageois</item>
         <item>Loup-Garou</item>
