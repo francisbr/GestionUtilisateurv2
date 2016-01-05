@@ -125,22 +125,16 @@ public class Activity_list extends Activity implements GoogleApiClient.Connectio
 
             public void done(List<ParseObject> usersList, ParseException e) {
                 if (e == null) {
-
                     for(int i=0;i<usersList.size();i++) {
-                        try {
-                            String nom = query.find().get(i).get("Nom").toString();
-                            String role = query.find().get(i).get("Role").toString();
+                        String nom = usersList.get(i).get("Nom").toString();
+                        String role = usersList.get(i).get("Role").toString();
 
-                            getListeUsers().add(new Personne(nom,role));
+                        Log.d("score", nom + " " + role);
+                        getListeUsers().add(new Personne(nom,role));
 
-                            updateListView();
-
-                        } catch (ParseException e1) {
-                            e1.printStackTrace();
-                        }
 
                     }
-
+                    updateListView();
                 } else {
                     Log.d("score", "Error: " + e.getMessage());
                 }
@@ -148,6 +142,8 @@ public class Activity_list extends Activity implements GoogleApiClient.Connectio
 
             }
         });
+
+
     }
 
     @Override

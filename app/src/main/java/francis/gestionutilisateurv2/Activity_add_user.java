@@ -30,8 +30,6 @@ public class Activity_add_user extends Activity {
 
 
 
-        setTitle("Yo");
-
         setContentView(R.layout.activity_add_user);
 
         Log.d(activityName, "onCreate()");

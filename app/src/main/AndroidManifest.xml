@@ -30,8 +30,9 @@
 
         <activity
             android:name=".Activity_add_user"
+            android:theme="@style/AppTheme"
             android:label="Name"
-            android:theme="@style/AppTheme" />
+            />
 
     </application>
 
